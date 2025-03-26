@@ -15,6 +15,10 @@ make
 
 | Command  | Action                          |
 |----------|---------------------------------|
+| i, a     | Insert/append text              |
+| Ctrl-C   | quit insert mode                |
+| v        | enter visual mode               |
+| i,a, O,o | Insert column/row               |
 | I,A, O,o | Insert column/row               |
 | V-l, V-j | Select entire column            |
 | >, \|, < | Pipe operations                 |
@@ -28,7 +32,7 @@ make
 | bc                          # Pipe through calculator
 | tr a-z A-Z                  # Uppercase conversion
 | sed 's/\./;/g'              # Replace dots with semicolons
-> wc                         # Pipe to wc to count lines
+> wc                          # Pipe to wc to count lines
 e > a=[1,2,3]                 # Pipe to python repl (pyrepl script)
 ```
 
