@@ -20,15 +20,13 @@ make
 - :n.m move to n-th column and m-th row.
     
 ## Examples for piping selection
-    | bc
-    | tr az-AZ
-    | sed s/\./;/g
-    Ctrl-O|{a=$1+$2; print $0,a}
-    > wc
-    e > a=[1,2,3]
-    < seq 10
-    < cat data.csv
-    draw diagram with matplotlib
+< seq 10                      # Insert sequence
+< cat data.csv                # Insert file
+| bc                          # Pipe through calculator
+| tr a-z A-Z                  # Uppercase conversion
+| sed 's/\./;/g'              # Replace dots with semicolons
+\> wc                         # Pipe to wc to count lines
+e > a=[1,2,3]                 # Pipe to python repl (pyrepl script)
 
 ## Bugs
 - error when yank -> undo -> paste
