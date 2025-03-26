@@ -31,9 +31,11 @@ make
     draw diagram with matplotlib
 
 ## Bugs
-    - error when yank -> undo -> paste
-    - errors when inserting wide characters at the end of line
-    - inserting text when screen is full
+- error when yank -> undo -> paste
+- errors when inserting wide characters at the end of line
+- inserting text when screen is full
+
+---
 
 ## TODO
 - [ ] Change delimiter
