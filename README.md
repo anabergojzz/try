@@ -35,20 +35,20 @@ make
     - inserting text when screen is full
 
 ## TODO
-    - Change delimiter
-    - leave file structure (without adding separators) if changing only fields that exist (!= NULL)
-    - vi movements page down, up, H, M, L, zz, zt, zb
-    - add :q, :w
-    - struct for display state (scr_x, v_y, y)
-    - search (grep?)
-    - how to calculate sum?
-    - mouse support
-    - multi select?
-    - show full width of cells
-    - enumerate
-    - "." to repeat
-    - how to write chosen area (yank 5-4,2-10)
-    - generalise send to named pipe
+- [] Change delimiter
+- [] leave file structure (without adding separators) if changing only fields that exist (!= NULL)
+- [] vi movements page down, up, H, M, L, zz, zt, zb
+- [] add :q, :w
+- [] struct for display state (scr_x, v_y, y)
+- [] search (grep?)
+- [] how to calculate sum?
+- [] mouse support
+- [] multi select?
+- [] show full width of cells
+- [] enumerate
+- [] "." to repeat
+- [] how to write chosen area (yank 5-4,2-10)
+- [] generalise send to named pipe
 
 ## Contribute
-Please report
+Please contact me for suggestions, advice, report issues,...
