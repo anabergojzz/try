@@ -1,8 +1,8 @@
-# Csvis - visualise and edit csv files
+# csvis - visualise and edit CSV files
 
-Simple terminal program to quickly visualise CSV files in tabular form.\\
-Uses vi-style motions and modal editing (Normal/Visual/Insert modes).\\
-It is inspired by text editor [`Vis`](https://github.com/martanne/vis).\\
+Simple terminal program to quickly visualise CSV files in tabular form.  
+Uses vi-style motions and modal editing (Normal/Visual/Insert modes).  
+It is inspired by text editor [`Vis`](https://github.com/martanne/vis).  
 For additional functionality you can pipe selected fields to/from/through external programs.
 
 ## Build
