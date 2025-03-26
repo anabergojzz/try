@@ -20,6 +20,7 @@ make
 - :n.m move to n-th column and m-th row.
     
 ## Examples for piping selection
+```
 < seq 10                      # Insert sequence
 < cat data.csv                # Insert file
 | bc                          # Pipe through calculator
@@ -27,6 +28,7 @@ make
 | sed 's/\./;/g'              # Replace dots with semicolons
 \> wc                         # Pipe to wc to count lines
 e > a=[1,2,3]                 # Pipe to python repl (pyrepl script)
+```
 
 ## Bugs
 - error when yank -> undo -> paste
