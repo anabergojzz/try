@@ -11,13 +11,15 @@ cd makefile_folder
 make
 ```
 
-## Documentation
-- For all commands see beginning of main.c file.
-- Usual vi letters for navigation
-- I,A,o,O for inserting columns/rows
-- V-l, V-j for selecting entire column/row
-- >,|,< for pipes, e for named pipe (for pipe to repl with memory - for example pyrepl)
-- :n.m move to n-th column and m-th row.
+## Keybindings
+
+| Command | Action                          |
+|---------|---------------------------------|
+| I,A,O,o | Insert column/row               |
+| V-l,V-j | Select entire column            |
+| >,|,<   | Pipe operations                 |
+| e       | Named pipe                      |
+| :n.m    | Jump to column n, row m         |
     
 ## Examples for piping selection
 ```
@@ -26,7 +28,7 @@ make
 | bc                          # Pipe through calculator
 | tr a-z A-Z                  # Uppercase conversion
 | sed 's/\./;/g'              # Replace dots with semicolons
-\> wc                         # Pipe to wc to count lines
+> wc                         # Pipe to wc to count lines
 e > a=[1,2,3]                 # Pipe to python repl (pyrepl script)
 ```
 
