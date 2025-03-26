@@ -15,9 +15,9 @@ make
 
 | Command | Action                          |
 |---------|---------------------------------|
-| I,A,O,o | Insert column/row               |
-| V-l,V-j | Select entire column            |
-| >,|,<   | Pipe operations                 |
+| I,A, O,o | Insert column/row               |
+| V-l, V-j | Select entire column            |
+| >,\|,<   | Pipe operations                 |
 | e       | Named pipe                      |
 | :n.m    | Jump to column n, row m         |
     
