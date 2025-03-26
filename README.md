@@ -9,6 +9,7 @@ For additional functionality you can pipe selected fields to/from/through extern
 ```sh
 cd makefile_folder
 make
+```
 
 ## Documentation
 - For all commands see beginning of main.c file.
