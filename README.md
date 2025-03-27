@@ -14,23 +14,23 @@ make
 ## Keybindings
 | Command                           | Action                                     |
 |-----------------------------------|--------------------------------------------|
-| `h`, `j`, `k`, `l`, `arrow keys`  | move one column/row                        |
-| `<Ctrl-D>`, `<Ctrl-U>`, `w`, `b`  | move multiple columns/rows                 |
-| `g`, `G`, `0`, `$`                | move to first/last column/row              |
+| `h`, `j`, `k`, `l`, `arrow keys`  | Move one column/row                        |
+| `<Ctrl-D>`, `<Ctrl-U>`, `w`, `b`  | Move multiple columns/rows                 |
+| `g`, `G`, `0`, `$`                | Move to first/last column/row              |
 | `i`, `a`                          | Insert/append text                         |
-| `<Enter>`, `<Tab>`                | in insert mode proceed to next column/row  |
-| `<Ctrl-C>`                        | quit insert/visual mode                    |
-| `v`                               | toogle visual mode                         |
+| `<Enter>`, `<Tab>`                | In insert mode proceed to next column/row  |
+| `<Ctrl-C>`                        | Quit insert/visual mode                    |
+| `v`                               | Toogle visual mode                         |
 | `V-l`, `V-j`                      | Select entire column/row                   |
-| `I`, `A`, `O`, `o`                | insert/append column/row                   |
-| `d`                               | delete selection                           |
-| `D`                               | extract if entire row/column selected      |
-| `y`, `p`                          | yank, paste                                |
+| `I`, `A`, `O`, `o`                | Insert/append column/row                   |
+| `d`                               | Delete selection                           |
+| `D`                               | Extract if entire row/column selected      |
+| `y`, `p`                          | Yank, paste                                |
 | `>`, `\|`, `<`                    | Pipe operations                            |
 | `e`                               | Named pipe                                 |
 | `:n.m`                            | Jump to column n, row m                    |
-| `s`, `S`                          | save, save as                              |
-| `u`, `<Ctrl-R>`                   | undo, redo                                 |
+| `s`, `S`                          | Save, save as                              |
+| `u`, `<Ctrl-R>`                   | Undo, redo                                 |
     
 ## Examples for piping selection
 ```
