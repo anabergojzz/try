@@ -14,8 +14,8 @@ make
 ## Keybindings
 | Command     | Action                                     |
 |-------------|--------------------------------------------|
-| i, a        | Insert/append text                         |
-| `Enter`, `<TAB>` | in insert mode proceed to next column/row  |
+| `i`, `a`        | Insert/append text                         |
+| `<Enter>`, `<Tab>` | in insert mode proceed to next column/row  |
 | Ctrl-C      | quit insert/visual mode                    |
 | v           | toogle visual mode                         |
 | V-l, V-j    | Select entire column/row                   |
