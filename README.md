@@ -17,7 +17,7 @@ make
 | `h`, `j`, `k`, `l`, `arrow keys`  | Move one column/row                        |
 | `<Ctrl-D>`, `<Ctrl-U>`, `w`, `b`  | Move multiple columns/rows                 |
 | `g`, `G`, `0`, `$`                | Move to first/last column/row              |
-| `i`, `a`                          | Insert/append text                         |
+| `i`, `a`, `c`                     | Insert/append/change text                  |
 | `<Enter>`, `<Tab>`                | In insert mode proceed to next column/row  |
 | `<Ctrl-C>`                        | Quit insert/visual mode                    |
 | `v`                               | Toogle visual mode                         |
@@ -27,10 +27,14 @@ make
 | `D`                               | Extract if entire row/column selected      |
 | `y`, `p`                          | Yank, paste                                |
 | `>`, `\|`, `<`                    | Pipe operations                            |
-| `e`                               | Named pipe                                 |
+| `e`, `E`                          | Write to named pipe, write transposed      |
 | `:n.m`                            | Jump to column n, row m                    |
-| `s`, `S`                          | Save, save as                              |
+| `s`, `S`, `<Ctrl-S>`              | Save as, save transposed as, save          |
 | `u`, `<Ctrl-R>`                   | Undo, redo                                 |
+| `q`                               | quit                                       |
+| `<Ctrl-O>`                        | Pipe to awk                                |
+| `<Ctrl-_>`                        | Read from pipe transposed                  |
+| `<Ctrl-P>`                        | Paste transposed                           |
     
 ## Examples for piping selection
 ```
