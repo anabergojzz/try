@@ -44,7 +44,7 @@ make
 | tr a-z A-Z                  # Uppercase conversion
 | sed 's/\./;/g'              # Replace dots with semicolons
 > wc                          # Pipe to wc to count lines
-e > a=[1,2,3]                 # Write to named pipe (python repl, example `pyrepl` script)
+e > a=[1,2,3]                 # Write to named pipe (e.g. python repl - pyrepl script)
 Ctrl-O|{print $1*2}           # Pipe to awk program
 ```
 
