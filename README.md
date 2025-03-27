@@ -23,7 +23,7 @@ make
 | `d`           | delete selection                           |
 | `D`           | extract if entire row/column selected      |
 | `y`, `p`        | yank, paste                                |
-| `>`, `|`, `<`    | Pipe operations                            |
+| `>`, `\|`, `<`    | Pipe operations                            |
 | `e`           | Named pipe                                 |
 | `:n.m`        | Jump to column n, row m                    |
     
