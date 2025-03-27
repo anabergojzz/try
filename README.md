@@ -13,17 +13,18 @@ make
 
 ## Keybindings
 
-| Command  | Action                          |
-|----------|---------------------------------|
-| i, a     | Insert/append text              |
-| Ctrl-C   | quit insert mode                |
-| v        | enter visual mode               |
-| i,a, O,o | Insert column/row               |
-| I,A, O,o | Insert column/row               |
-| V-l, V-j | Select entire column            |
-| >, \|, < | Pipe operations                 |
-| e        | Named pipe                      |
-| :n.m     | Jump to column n, row m         |
+| Command     | Action                                     |
+|-------------|--------------------------------------------|
+| i, a        | Insert/append text                         |
+| Ctrl-C      | quit insert mode                           |
+| v           | enter visual mode                          |
+| i, a        | insert/append text                         |
+| <CR>, <TAB> | in insert mode proceed to next column/row  |
+| I,A, O,o    | insert/append column/row                   |
+| V-l, V-j    | Select entire column/row                   |
+| >, \|, <    | Pipe operations                            |
+| e           | Named pipe                                 |
+| :n.m        | Jump to column n, row m                    |
     
 ## Examples for piping selection
 ```
@@ -47,17 +48,18 @@ e > a=[1,2,3]                 # Pipe to python repl (pyrepl script)
 - [ ] Change delimiter
 - [ ] leave file structure (without adding separators) if changing only fields that exist (!= NULL)
 - [ ] vi movements page down, up, H, M, L, zz, zt, zb
-- [ ] add :q, :w
+- [ ] add commands (:q, :w)
 - [ ] struct for display state (scr_x, v_y, y)
-- [ ] search (grep?)
+- [ ] search
 - [ ] how to calculate sum?
 - [ ] mouse support
 - [ ] multi select?
 - [ ] show full width of cells
 - [ ] enumerate
 - [ ] "." to repeat
-- [ ] how to write chosen area (yank 5-4,2-10)
+- [ ] how to mark chosen area (yank 5.4,2.10)
 - [ ] generalise send to named pipe
+- [ ] do not overwrite if original file has changed while editing
 
 ## Contribute
 Please contact me for suggestions, advice, report issues,...
