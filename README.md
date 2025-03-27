@@ -15,7 +15,7 @@ make
 | Command                           | Action                                     |
 |-----------------------------------|--------------------------------------------|
 | `h`, `j`, `k`, `l`, `arrow keys`  | move one column/row                        |
-| `<Ctrl-D>`, `<Ctrl-U>`, w, b      | move multiple columns/rows                 |
+| `<Ctrl-D>`, `<Ctrl-U>`, `w`, `b`  | move multiple columns/rows                 |
 | `g`, `G`, `0`, `$`                | move to first/last column/row              |
 | `i`, `a`                          | Insert/append text                         |
 | `<Enter>`, `<Tab>`                | in insert mode proceed to next column/row  |
