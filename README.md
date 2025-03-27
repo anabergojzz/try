@@ -15,11 +15,11 @@ make
 | Command     | Action                                     |
 |-------------|--------------------------------------------|
 | i, a        | Insert/append text                         |
-| <CR>, <TAB> | in insert mode proceed to next column/row  |
+| `Enter`, `<TAB>` | in insert mode proceed to next column/row  |
 | Ctrl-C      | quit insert/visual mode                    |
 | v           | toogle visual mode                         |
 | V-l, V-j    | Select entire column/row                   |
-| I,A, O,o    | insert/append column/row                   |
+| I, A, O, o  | insert/append column/row                   |
 | d           | delete selection                           |
 | D           | extract if entire row/column selected      |
 | y, p        | yank, paste                                |
