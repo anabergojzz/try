@@ -62,7 +62,7 @@ Ctrl-O|{print $1*2}           # Pipe to awk program
 - [ ] add commands (:q, :w)
 - [ ] struct for display state (scr_x, v_y, y)
 - [ ] search
-- [ ] how to calculate sum?
+- [ ] research options for calculations
 - [ ] mouse support
 - [ ] multi select?
 - [ ] show full width of cells
