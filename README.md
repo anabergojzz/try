@@ -16,16 +16,16 @@ make
 |-------------|--------------------------------------------|
 | `i`, `a`        | Insert/append text                         |
 | `<Enter>`, `<Tab>` | in insert mode proceed to next column/row  |
-| Ctrl-C      | quit insert/visual mode                    |
-| v           | toogle visual mode                         |
-| V-l, V-j    | Select entire column/row                   |
-| I, A, O, o  | insert/append column/row                   |
-| d           | delete selection                           |
-| D           | extract if entire row/column selected      |
-| y, p        | yank, paste                                |
-| >, \|, <    | Pipe operations                            |
-| e           | Named pipe                                 |
-| :n.m        | Jump to column n, row m                    |
+| `<Ctrl-C>`      | quit insert/visual mode                    |
+| `v`           | toogle visual mode                         |
+| `V-l`, `V-j`    | Select entire column/row                   |
+| `I`, `A`, `O`, `o`  | insert/append column/row                   |
+| `d`           | delete selection                           |
+| `D`           | extract if entire row/column selected      |
+| `y`, `p`        | yank, paste                                |
+| `>`, `|`, `<`    | Pipe operations                            |
+| `e`           | Named pipe                                 |
+| `:n.m`        | Jump to column n, row m                    |
     
 ## Examples for piping selection
 ```
