@@ -1,1 +1,1 @@
-When st window is small so characters fill whole window and if window width has odd number of columns last emoji gets cut on half.
+If you make st window 1 row high and 9 columns wide, so string "😍😍😍😍x" should fill whole window, last emoji gets cut on half.
